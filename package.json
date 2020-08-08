@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
-    "test": "jest --testPathPattern=. --passWithNoTests",
+    "test": "jest --testPathPattern=./__tests__/ --passWithNoTests",
     "e2e": "jest --testPathPattern=./e2e/"
   },
   "dependencies": {
